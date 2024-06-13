@@ -20,6 +20,17 @@ This Application use several stacks, such as :
 - React-query
 - Recharts
 
+### Database Setup
+
+Here the database setup for local
+
+```
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+```
+
 ## The Prisma Models
 
 Here is the `Prisma Schema` that i use to generate the `SQL Queries` of Databse and Tables
